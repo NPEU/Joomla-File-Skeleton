@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="3.2.0" method="upgrade">
+
+    <name>{{NAME}}</name>
+    <author>Andy Kirk</author>
+    <authorEmail>andy.kirk@npeu.ox.ac.uk</authorEmail>
+    <authorUrl>https://www.npeu.ox.ac.uk</authorUrl>
+    <creationDate>{{MONTH}} {{YEAR}}</creationDate>
+    <copyright>(C) {{OWNER}} {{YEAR}}</copyright>
+    <license>MIT License; see LICENSE.md</license>
+
+    <!--  The version string is recorded in the components table -->
+    <version>1.0.0</version>
+    <!-- The description is optional and defaults to the name -->
+    <description>{{DESCRIPTION}}</description>
+
+    <updateservers>
+        <!-- Note: No spaces or linebreaks allowed between the server tags -->
+        <server type="extension" name="{{OWNER}}: file__filename Update Site">https://raw.githubusercontent.com/{{OWNER}}/file__filename/main/update-manifest.xml</server>
+    </updateservers>
+
+    <fileset>
+        <files target="/">
+            <folder>*** Add Folder or File namer here ***</folder>
+        </files>
+    </fileset>
+
+</extension>

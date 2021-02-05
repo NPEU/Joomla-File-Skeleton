@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+    <update>
+        <name>{{OWNER}}: file__filename</name>
+        <description>Joomla! file__filename file</description>
+        <element>file__filename</element>
+        <type>file</type>
+        <version>1.0.0</version>
+        <client>site</client>
+        <infourl title="{{OWNER}}: file__filename">https://github.com/{{OWNER}}/file__filename/releases/tag/v1.0.0</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/{{OWNER}}/file__filename/archive/v1.0.0.zip</downloadurl>
+        </downloads>
+        <targetplatform name="joomla" />
+        <tags>
+            <tag>stable</tag>
+        </tags>
+    </update>
+</updates>
