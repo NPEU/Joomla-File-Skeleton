@@ -21,7 +21,7 @@
 
     <fileset>
         <files target="/">
-            <folder>*** Add Folder or File namer here ***</folder>
+            <folder>*** Add Folder or File names here ***</folder>
         </files>
     </fileset>
 
